@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-div {
+  height: 100vh;
+  width: 100%;
+  /*   display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center; */
+  background-color: rgb(189, 189, 230);
+  border: 2px solid green;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-div {
+  width: 300px;
+  height: 450px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.list-header {
+  margin-top: 10px;
+  background-color: rgb(131, 104, 207);
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.input-box {
+  height: 40px;
+  /*   margin: 50px 30px;
+  margin-right: 2000px; */
+  text-align: center;
+  border: none;
+  background: transparent;
+  width: 60%;
+  border-bottom: 2px solid #8566aa;
+  outline: none;
+  font-weight: 500;
+  margin-left: 35px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.add-button {
+  min-height: 40px;
+  border-radius: 50%;
+  width: 40px;
+  background-color: transparent;
+  background-color: #8566aa;
+  color: #fff;
+  font-size: 40px;
+  border: none;
+  outline: none;
+  margin-left: 25px;
+  margin-top: 20px;
+  box-shadow: 5px 5px 15px -5px rgb(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #20bf6b;
+}
+
+ol {
+  margin-top: 30px;
+}
+
+ol li {
+  padding-left: 0px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 40px;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color: #8566aa;
+  text-transform: capitalize;
+}
+
+/* 
+
+"todo-style">
+<i class="fa fa-times" */
+
+.todo-style {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.todo-style .cross-button {
+  width: 20px;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  background-color: #8566aa;
+  border-radius: 15px;
+  margin: 0 15px 0 35px;
+  color: aliceblue;
+  /* box-shadow: 5px 5px 15px -5px rgb(0, 0, 0, 0.3); */
+  cursor: pointer;
+  outline: none;
+}
+
+.cross-button:hover {
+  background-color: red;
+}
